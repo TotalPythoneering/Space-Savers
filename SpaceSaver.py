@@ -1,6 +1,6 @@
 # MISSION: Space Savers.
 # STATUS: Public
-# VERSION: 1.0.0
+# VERSION: 1.0.1
 # NOTES: https://github.com/TotalPythoneering and https://www.youtube.com/@TotalPythoneering
 # DATE: 2026-06-04 11:33:13
 # FILE: SpaceSaver.py
@@ -44,7 +44,33 @@ class UnicodeFlyer:
         self.update_scoreboard()
         
         # List of unicode vehicle characters for ambient traffic
-        self.vehicles = ["🚗", "✈️", "🚁", "🚲", "🚜", "🛹", "🚢", "🛸", "🏎️"]
+        self.vehicles = [
+            '🌟', # GLOWING STAR
+            '🌌', # MILKY WAY
+            '🚗', # AUTOMOBILE
+            '🚕', # TAXI
+            '🛩', # SMALL AIRPLANE
+            '🌠', # SHOOTING STAR
+            '🛰', # SATELLITE
+            '👽', # EXTRATERRESTRIAL ALIEN
+            '☀', # BLACK SUN WITH RAYS
+            '👾', # ALIEN MONSTER
+            '🚚', # DELIVERY TRUCK
+            '🛳', # PASSENGER SHIP
+            '🌀', # CYCLONE
+            '🚌', # BUS
+            '🪐', # RINGED PLANET
+            '🚲', # BICYCLE
+            '🚙', # RECREATIONAL VEHICLE
+            '🌙', # CRESCENT MOON
+            '🌑', # NEW MOON SYMBOL
+            '🚄', # HIGH-SPEED TRAIN
+            '🛸', # FLYING SAUCER
+            '☄', # COMET
+            '🚁', # HELICOPTER
+            '🌕', # FULL MOON SYMBOL
+            '🔭', # TELESCOPE
+            ]
         
         # Separate lists for tracking items, rockets, and explosion particles
         self.active_items = []
